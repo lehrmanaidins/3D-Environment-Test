@@ -10,8 +10,10 @@ public class MapGenerator : MonoBehaviour {
 	public int mapHeight;
 	public float noiseScale;
 
+	[Range(1, 20)]
 	public int octaves;
-	[Range(0,1)]
+
+	[Range(0, 1)]
 	public float persistance;
 	public float lacunarity;
 
